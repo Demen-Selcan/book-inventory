@@ -18,20 +18,20 @@ CREATE EXTENSION IF NOT EXISTS vector;
 ### 2 Run the following NPM Commands via NPM RUN ...
 
 1. npm run dev
-   next dev --turbo
+   1.1. next dev --turbo
 2. npm run build
-   next build
+   2.1. next build
 3. npm run db:generate
-   drizzle-kit generate
+   3.1. drizzle-kit generate
 4. npm run db:studio
-   drizzle-kit studio
+   4.1. drizzle-kit studio
 5. npm run db:migrate
-   tsx lib/db/migrate.ts
+   5.1. tsx lib/db/migrate.ts
 6. npm run db:seed-authors
-   tsx lib/db/seed-authors.ts
+   6.1. tsx lib/db/seed-authors.ts
 7. npm run db:seed-books
-   tsx lib/db/seed-books.ts
+   7.1. tsx lib/db/seed-books.ts
 8. npm run db:seed-thumbhash
-   tsx lib/db/seed-thumbhash.ts
+   8.1. tsx lib/db/seed-thumbhash.ts
 9. npm run db:embeddings
-   tsx lib/ai/create-embeddings.ts
+   9.1. tsx lib/ai/create-embeddings.ts
