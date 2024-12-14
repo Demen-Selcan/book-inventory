@@ -1,19 +1,19 @@
 export default {
-  experimental: {
-    ppr: true,
-  },
-  logging: {
-    fetches: {
-      fullUrl: true,
+    experimental: {
+        ppr: true,
     },
-  },
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '*.gr-assets.com',
-        port: '',
-      },
-    ],
-  },
+    logging: {
+        fetches: {
+            fullUrl: true,
+        },
+    },
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: '*.com',
+                port: '',
+            },
+        ],
+    },
 };
