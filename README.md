@@ -17,25 +17,21 @@ CREATE EXTENSION IF NOT EXISTS vector;
 
 ### 2 Run the following NPM Commands via NPM RUN ...
 
-dev
-next dev --turbo
-build
-next build
-db:generate
-drizzle-kit generate
-db:studio
-drizzle-kit studio
-db:migrate
-tsx lib/db/migrate.ts
-db:seed-authors
-tsx lib/db/seed-authors.ts
-db:seed-books
-tsx lib/db/seed-books.ts
-db:seed-thumbhash
-tsx lib/db/seed-thumbhash.ts
-db:embeddings
-tsx lib/ai/create-embeddings.ts
-
-## Deploy on Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/templates/next.js/next-book-inventory)
+1. npm run dev
+   next dev --turbo
+2. npm run build
+   next build
+3. npm run db:generate
+   drizzle-kit generate
+4. npm run db:studio
+   drizzle-kit studio
+5. npm run db:migrate
+   tsx lib/db/migrate.ts
+6. npm run db:seed-authors
+   tsx lib/db/seed-authors.ts
+7. npm run db:seed-books
+   tsx lib/db/seed-books.ts
+8. npm run db:seed-thumbhash
+   tsx lib/db/seed-thumbhash.ts
+9. npm run db:embeddings
+   tsx lib/ai/create-embeddings.ts
